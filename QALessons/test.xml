@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <groups>
+        <run>
+            <include name="driver"/><!--筛选driver组的方法来执行-->
+            <include name="boss"/><!--筛选boss组的方法来执行-->
+        </run>
+    </groups>
+    <test name="Test">
+        <classes>
+<!--           右键测试类名，"copy relative path"-->
+            <class name="com.TestClass.Car1"/>
+        </classes>
+    </test>
+</suite>
